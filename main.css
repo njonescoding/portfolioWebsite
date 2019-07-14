@@ -1,10 +1,11 @@
 html {
-    font-family:Poppins;
+    font-family:Poppins, monospace, sans-serif;
+    background-color:black;
 }
 .header{
     background-color:darkgray;
-    overflow:hidden;
-    
+    overflow:hidden;  
+    width:inherit;
 }
 h1{
     width:25%;
@@ -25,5 +26,4 @@ ul.navBar li a{
 #downloadIcon{
     width:25px;
     float:right;
-    
 }
